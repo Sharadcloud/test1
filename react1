@@ -1,0 +1,15 @@
+npx create-next-app my-nextjs-app
+cd my-nextjs-app
+// components/HelloWorld.js
+import React from 'react';
+
+const HelloWorld = () => {
+  return (
+    <div>
+      <h1>Hello, World!</h1>
+      <p>This is a simple React component in a Next.js app.</p>
+    </div>
+  );
+};
+
+export default HelloWorld;
